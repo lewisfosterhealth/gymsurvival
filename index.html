@@ -3,37 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Email Capture</title>
+    <title>Mindset Guide – Lewis Foster</title>
 
     <style>
+        /* EBPT-inspired colours */
+        :root {
+            --dark-bg: #0d1b2a;      /* deep navy */
+            --accent-blue: #00a8e8;  /* bright EBPT-style blue */
+            --text-light: #ffffff;
+            --text-muted: #d9d9d9;
+        }
+
         body {
-            font-family: Arial, Helvetica, sans-serif;
-            background-color: #ffffff;
             margin: 0;
             padding: 0;
+            background-color: var(--dark-bg);
+            font-family: 'Poppins', 'Montserrat', Arial, sans-serif;
+            color: var(--text-light);
             display: flex;
             justify-content: center;
             align-items: flex-start;
         }
 
         .container {
-            max-width: 700px;
-            padding: 40px 20px;
+            max-width: 750px;
+            padding: 60px 20px;
             text-align: center;
         }
 
         h1 {
-            font-size: 2rem;
+            font-size: 2.4rem;
             font-weight: 700;
             margin-bottom: 20px;
-            color: #111;
+            color: var(--text-light);
         }
 
         p {
-            font-size: 1.1rem;
-            line-height: 1.6;
-            margin-bottom: 30px;
-            color: #333;
+            font-size: 1.2rem;
+            line-height: 1.7;
+            margin-bottom: 35px;
+            color: var(--text-muted);
+        }
+
+        strong {
+            color: var(--accent-blue);
         }
 
         iframe {
@@ -41,22 +54,25 @@
             max-width: 640px;
             height: 500px;
             border: none;
+            border-radius: 8px;
+            background: #fff;
         }
     </style>
 </head>
 
 <body>
     <div class="container">
-        <h1>How to get yourself mentally ready for the gym!</h1>
+        <h1>Struggling to get back into the gym?<br>Grab my free mindset guide and restart with confidence.</h1>
 
         <p>
-            Simply ping your email in the box below and I will send my super helpful guide 
-            to getting back into the swing of things, or starting for the very first time!<br><br>
+            Drop your email below and I’ll send you my simple, practical guide to getting mentally ready for the gym — 
+            whether you're returning after a break or starting for the first time.<br><br>
             <strong>- Lewis Foster, Health Coach</strong>
         </p>
 
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScdfL9GCQS6nyja0-XW1lOLiLWn8DgHlG1bqLcqAzDP4VIkHQ/viewform?embedded=true" 
-                marginheight="0" marginwidth="0">Loading…</iframe>
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScdfL9GCQS6nyja0-XW1lOLiLWn8DgHlG1bqLcqAzDP4VIkHQ/viewform?embedded=true">
+            Loading…
+        </iframe>
     </div>
 </body>
 </html>
