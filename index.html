@@ -47,17 +47,6 @@
             z-index: 1;
         }
 
-        .logo-container {
-            position: relative;
-            z-index: 2;
-            margin-bottom: 20px;
-        }
-
-        .logo-container img {
-            width: 220px;
-            max-width: 80%;
-        }
-
         .hero-text {
             position: relative;
             z-index: 2;
@@ -79,10 +68,6 @@
 
             .hero-text h1 {
                 font-size: 1.8rem;
-            }
-
-            .logo-container img {
-                width: 160px;
             }
         }
 
@@ -107,6 +92,12 @@
             color: var(--text-muted);
         }
 
+        .logo-container img {
+            width: 220px;
+            max-width: 80%;
+            margin-bottom: 20px;
+        }
+
         iframe {
             width: 100%;
             max-width: 640px;
@@ -124,10 +115,6 @@
     <section class="hero">
         <div class="overlay"></div>
 
-        <div class="logo-container">
-            <img src="logo.jpg" alt="Lewis Foster Health Coach Logo">
-        </div>
-
         <div class="hero-text">
             <h1>Struggling to get back into the gym?<br>
             Grab my free mindset guide and restart with confidence.</h1>
@@ -136,6 +123,12 @@
 
     <!-- EMAIL FORM SECTION -->
     <div class="container">
+
+        <!-- Logo moved here -->
+        <div class="logo-container">
+            <img src="logo.jpg" alt="Lewis Foster Health Coach Logo">
+        </div>
+
         <h1>How to get yourself mentally ready for the gym!</h1>
 
         <p>
